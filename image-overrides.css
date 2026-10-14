@@ -1,0 +1,8 @@
+.niva .card-art{background-image:linear-gradient(#0001,#0001),url('assets/projects/niva-screen-1.png');background-size:cover;background-position:center}
+.dormi .card-art{background-image:linear-gradient(#0001,#0001),url('assets/projects/dormi-reference.png');background-size:cover;background-position:center}
+.hero-art.niva-art{background-image:linear-gradient(#0001,#0001),url('../assets/projects/niva-reference.png');background-size:cover;background-position:center}
+.hero-art.dormi-art{background-image:linear-gradient(#0001,#0001),url('../assets/projects/dormi-reference.png');background-size:cover;background-position:center}
+.card-bottom{display:block}.card-bottom h2{margin-top:10px}.card-bottom p{margin:8px 0 0;max-width:290px}.card-bottom .year{display:none}
+@media(max-width:800px){.card-bottom p{max-width:260px}}
+.project-screen{position:absolute;inset:7% 12%;width:76%;height:86%;object-fit:contain;border-radius:14px;box-shadow:0 22px 45px #0003;z-index:1}.niva-panel .panel-ui{z-index:2}.dormi-panel .project-screen{object-fit:cover;opacity:.96}
+.hero-art .hero-mockup{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:3;border-radius:inherit}.hero-art .art-sun{z-index:2;opacity:.28}.hero-art .art-moon{z-index:4;opacity:.9}
